@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Auto Typing Effect</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>I'm <span class="auto-type"></span></h1>
+	</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+<script>
+	var typed = new Typed(".auto-type", {
+		strings: ["Coding", "Learning", "Browsing"],
+		typeSpeed: 150,
+		backSpeed: 150,
+		loop:true
+	})
+</script>
+</body>
+</html>
